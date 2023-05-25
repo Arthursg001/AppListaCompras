@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">App Lista Compras</string>
+    <string name="text_string_NomeItem">Nome Produto</string>
+    <string name="text_String_Quantidade">Quantidade Desejada</string>
+    <string name="app_name_Local">Local de Compra</string>
+    <string name="app_name_Limpar">Limpar</string>
+    <string name="app_name_Salvar">Salvar</string>
+    <string name="app_name_Finalizar">Comprar</string>
+    <string name="app_name_Comprar">Comprar</string>
+    <string name="text_string_Finalizar">Finalizar</string>
 </resources>
