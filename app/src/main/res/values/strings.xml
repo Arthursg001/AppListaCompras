@@ -8,4 +8,5 @@
     <string name="app_name_Finalizar">Comprar</string>
     <string name="app_name_Comprar">Comprar</string>
     <string name="text_string_Finalizar">Finalizar</string>
+    <string name="app_lista_compras">App Lista Compras</string>
 </resources>

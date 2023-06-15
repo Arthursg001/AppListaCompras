@@ -8,6 +8,7 @@ public class Compras {
     public Compras() {
     }
 
+
     public String getNomeItem() {
         return nomeItem;
     }

@@ -10,7 +10,7 @@
         android:id="@+id/txt_Titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Lista Compras"
+        android:text="@string/app_lista_compras"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
     <EditText
         android:id="@+id/editNomeProduto"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="@string/text_string_NomeItem"
@@ -30,33 +30,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Titulo" />
-
-    <EditText
-        android:id="@+id/editQuantidadeDesejada"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:ems="10"
-        android:hint="@string/text_String_Quantidade"
-        android:inputType="textPersonName"
-        android:textColorHint="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editNomeProduto" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Titulo"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editLocalCompra"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="@string/app_name_Local"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editQuantidadeDesejada" />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerQtdDesejada" />
 
     <Button
         android:id="@+id/btnLimpar"
@@ -104,5 +94,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtQtdDesejada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Quantidade Desejada"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNomeProduto" />
+
+    <Spinner
+        android:id="@+id/spinnerQtdDesejada"
+        android:layout_width="366dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQtdDesejada" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
