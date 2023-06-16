@@ -9,4 +9,12 @@
     <string name="app_name_Comprar">Comprar</string>
     <string name="text_string_Finalizar">Finalizar</string>
     <string name="app_lista_compras">App Lista Compras</string>
+    <string name="txt_Titulo">App Lista Compras</string>
+    <string name="txt_hint_edit_nome_produto">Nome Produto</string>
+    <string name="txt_hint_edit_local_compra">Local Compra</string>
+    <string name="txt_qtd_desejada">Quantidade Desejada</string>
+    <string name="txt_button_finalizar">Finalizar</string>
+    <string name="txt_button_limpar">Limpar</string>
+    <string name="txt_button_comprar">Comprar</string>
+    <string name="txt_button_salvar">Salvar</string>
 </resources>

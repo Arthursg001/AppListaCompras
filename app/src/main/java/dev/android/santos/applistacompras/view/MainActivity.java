@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_spinner);
 
         controller = new ComprasController(MainActivity.this);
         controller.toString();
@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
         compra = new Compras();
         controller.procurar(compra);
 
-        editNomeProduto = findViewById(R.id.editNomeProduto);
-        editLocalCompra = findViewById(R.id.editLocalCompra);
+        editNomeProduto = findViewById(R.id.edit_NomeProduto);
+        editLocalCompra = findViewById(R.id.edit_LocalCompra);
 
-        spinner = findViewById(R.id.spinnerQtdDesejada);
+        spinner = findViewById(R.id.spinnerQtd);
 
         btnLimpar = findViewById(R.id.btnLimpar);
         btnComprar = findViewById(R.id.btnComprar);
